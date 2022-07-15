@@ -36,10 +36,10 @@ module.exports = [
     use: [
       {
         loader: 'file-loader',
-        options: {
-          publicPath: 'assets/images',
-          outputPath: 'assets/images',
-        },
+        // options: {
+        //   publicPath: 'assets/images',
+        //   outputPath: 'assets/images',
+        // },
       },
     ],
   },

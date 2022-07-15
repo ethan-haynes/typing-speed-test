@@ -6,7 +6,6 @@ module.exports = [
   new ForkTsCheckerWebpackPlugin(),
   new HtmlWebpackPlugin({
     template: 'src/index.html',
-    favicon: 'assets/images/logo.png',
     inject: true,
   }),
   new MiniCssExtractPlugin({
